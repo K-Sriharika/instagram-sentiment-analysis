@@ -1,6 +1,4 @@
-# Instagram-sentiment-analysis
-
-# 📊 Instagram Accounts Video Report — Sentiment Analysis
+# 🅾 INSTAGRAM Accounts Video Report — Sentiment Analysis
 
 > Uncovering the emotional pulse of viral Instagram content through NLP-powered comment analysis.
 
@@ -105,5 +103,5 @@ jupyter notebook
 **K Sriharika** — AI Evaluation Specialist & Data Science Enthusiast
 - 🎓 IIT Kanpur background
 - 💼 Experience across Government, EdTech & AI/ML industries
-- 🌐 [Portfolio](https://k-sriharika.github.io/sriharika-portfolio/) | 🔗 [LinkedIn](www.linkedin.com/in/sriharika-k) | 📒 [Report](https://github.com/K-Sriharika/instagram-sentiment-analysis/blob/main/Instagram%20Accounts%20Video%20Report%20PDF.pdf)
+- 🌐 [Portfolio](https://k-sriharika.github.io/sriharika-portfolio/) | 🔗 [LinkedIn](https://www.linkedin.com/in/sriharika-k/) | 📒 [Report](https://github.com/K-Sriharika/instagram-sentiment-analysis/blob/main/Instagram%20Accounts%20Video%20Report%20PDF.pdf)
 ---
