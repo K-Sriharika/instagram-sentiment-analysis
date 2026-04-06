@@ -1,4 +1,4 @@
-# 🅾 INSTAGRAM Accounts Video Report — Sentiment Analysis
+# <img width="40" height="40" alt="image" src="https://github.com/user-attachments/assets/b7176915-3f2c-4ee5-90ed-e6f327fbfde8" /> Instagram Accounts Video Report
 
 > Uncovering the emotional pulse of viral Instagram content through NLP-powered comment analysis.
 
