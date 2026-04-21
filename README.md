@@ -50,21 +50,21 @@ This was partially corrected by adding a custom emoji scoring layer (+0.1 per po
 ## 🛠️ Methodology
 
 ```
-Raw Comments (Multilingual: Hindi + English + Hinglish + Emoji)
-        ↓
-  ┌─────────────────────────┐     ┌────────────────────────────────┐
-  │  TextBlob (Baseline)    │     │  Claude API (LLM Comparison)   │
-  │  Polarity: -1.0 to +1.0 │     │  Zero-shot classification      │
-  │  + Custom emoji scoring │     │  System prompt: bilingual      │
-  └─────────────────────────┘     └────────────────────────────────┘
-        ↓                                       ↓
-   Per-comment labels                   Per-comment labels
-         ↓                                       ↓
-   ┌─────────────────────────────────────────────────┐
-   │        Agreement / Disagreement Analysis        │
-   │     Per-reel disagreement rates                 │
-   │  Error categorization (Hindi / sarcasm / emoji) │
-   └─────────────────────────────────────────────────┘
+        Raw Comments (Multilingual: Hindi + English + Hinglish + Emoji)
+                  ↓
+          ┌─────────────────────────┐     ┌────────────────────────────────┐
+          │  TextBlob (Baseline)    │     │  Claude API (LLM Comparison)   │
+          │  Polarity: -1.0 to +1.0 │     │  Zero-shot classification      │
+          │  + Custom emoji scoring │     │  System prompt: bilingual      │
+          └─────────────────────────┘     └────────────────────────────────┘
+                   ↓                                       ↓
+              Per-comment labels                   Per-comment labels
+                   ↓                                       ↓
+             ┌─────────────────────────────────────────────────┐
+             │        Agreement / Disagreement Analysis        │
+             │     Per-reel disagreement rates                 │
+             │  Error categorization (Hindi / sarcasm / emoji) │
+             └─────────────────────────────────────────────────┘
 ```
 
 ---
@@ -87,7 +87,7 @@ Raw Comments (Multilingual: Hindi + English + Hinglish + Emoji)
 ```
 instagram-sentiment-analysis/
 │
-├── 📓 Instagram_Accounts_Video_Report_Sentiment_Analysis.ipynb  ← Main analysis
+├── 📓 Instagram_Accounts_Video_Report_Sentiment_Analysis.ipynb   ← Main analysis
 ├── 📓 Instagram_Reels.ipynb                                      ← Engagement metrics
 ├── 🐍 Sentiment_Analysis_Python.py                               ← Script version
 ├── 📄 Instagram_Accounts_Video_Report_PDF.pdf                    ← Full report
